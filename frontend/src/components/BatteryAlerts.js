@@ -5,7 +5,7 @@ const BatteryAlerts = ({ vehicles }) => {
 
   return (
     <div className="max-w-md mx-auto p-6 bg-yellow-300 rounded-lg shadow-md">
-      <h2 className="text-xl font-bold mb-4 text-center">Battery Alerts</h2>
+      <h2 className="text-xl font-bold mb-4 text-center">Battery Alertsuuu</h2>
       {lowBatteryVehicles.length > 0 ? (
         <ul className="list-disc list-inside">
           {lowBatteryVehicles.map(vehicle => (
